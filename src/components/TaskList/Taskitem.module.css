@@ -1,0 +1,22 @@
+.done .label{
+    opacity: 0.6;
+    text-decoration: line-through;
+  }
+.label{
+    transition: opacity 0.2s linear;
+    
+  }
+  .wapper{
+    display: flex;
+    align-items: baseline;
+  }
+  .action_done{
+    flex-shrink: 0;
+    padding-left:0.7em;
+  }
+  .btn_remove{
+    border:none;
+    background: none;
+    cursor: pointer;
+    color: #fff 
+  } 

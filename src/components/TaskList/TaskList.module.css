@@ -12,28 +12,11 @@
     transition: all 0.5s ease;
     transform-origin: top left 
   }
-  .task_list .action{
-    flex-shrink: 0;
-    padding-left:0.7em;
-  }
-  .task_list .btn_action{
-    border:none;
-    background: none;
-    cursor: pointer;
-    color: #fff
-  } 
-  .task_list .lable{
-    transition: opacity 0.2s linear;
-    
-  }
-  .task_list .done .label{
-    opacity: 0.6;
-    text-decoration: line-through;
-  }
-  .fall{
+  
+  /* .fall{
     transform: rotate(10deg);
     opacity:0;
-  }
+  } */
   
   .filter_wrapper{
     margin-top:1em;
